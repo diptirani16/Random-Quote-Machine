@@ -42,3 +42,27 @@
   top: 60vh;
 }
 
+/* mobile view */
+
+@media screen and (max-width: 480px){
+  #text {
+    font-size: 1.2em;
+  }
+  #quote-box {
+    width: 60vw;
+  min-height: 300px;
+    margin: 20vh 15vw;
+  }
+  #new-quote {
+    padding: 2% 4%;
+    top: 58vh;
+    margin-right: 8vw;
+  }
+  #tweet-quote {
+    padding: 2% 4%;
+    top: 56vh;
+  font-size: 2.5em;
+
+  }
+}
+
