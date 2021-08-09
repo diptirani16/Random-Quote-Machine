@@ -50,19 +50,33 @@
   }
   #quote-box {
     width: 60vw;
-  min-height: 320px;
+    min-height: 320px;
     margin: 20vh 15vw;
   }
   #new-quote {
     padding: 2% 4%;
-    top: 58vh;
+    top: 50vh;
     margin-right: 8vw;
   }
   #tweet-quote {
     padding: 2% 4%;
-    top: 56vh;
+    top: 48vh;
   font-size: 2.5em;
 
   }
 }
 
+/* tablet view */
+
+@media screen and (min-width: 481px) and (max-width: 780px){
+  #quote-box {
+    width: 60vw;
+    min-height: 315px;
+    margin: 20vh 15vw;
+  }
+  #new-quote {
+    padding: 2% 2%;
+    top: 60vh;
+    margin-left: 44vw;
+  }
+}
